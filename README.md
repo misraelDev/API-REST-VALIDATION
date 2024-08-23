@@ -9,5 +9,10 @@ This project is an example of a REST API that implements validation in its endpo
 
 Thanks for visiting! Don't forget to leave a star if you liked the project.
 
+src/main/resources/application.properties
+
 > [!IMPORTANT]
 > In the root of the project, you will find the API documentation in the file named `REST-API VALIDATION.postman_collection.json`. There, you can test the different endpoints.
+
+> [!WARNING]
+> The project uses a PostgreSQL database, so you should change the credentials in the following path: `src/main/resources/application.properties`.
